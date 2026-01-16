@@ -3,7 +3,11 @@ RAG-System
 
 ---
 
+<<<<<<< HEAD
 # Dokumentation
+=======
+# INFO
+>>>>>>> e31da9d1abc79e9a1b0b7b4c1428c9a9283efa67
 Diese README beschreibt, wie du das Projekt aus GitHub holst (pull/clone) und lokal mit Docker Compose startest, sodass n8n, PostgreSQL, Qdrant, Ollama und Docling laufen. 
 
 

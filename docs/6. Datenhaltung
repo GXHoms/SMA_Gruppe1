@@ -1,0 +1,27 @@
+## 6. Datenhaltung
+
+### 6.1 PostgreSQL (Metadaten-Speicherung)
+
+PostgreSQL wird über ein Init-Skript initialisiert.
+
+**Schema (Beispiel: `001_init.sql`)**
+```sql
+CREATE TABLE IF NOT EXISTS public.dokumente_log (
+  id BIGSERIAL PRIMARY KEY,
+  chunkId TEXT NOT NULL,
+  titel TEXT NOT NULL,
+  seiteStart INT,
+  seiteEnde INT,
+  inhalt TEXT,
+  tag TEXT,
+  created_at TIMESTAMPTZ DEFAULT now()
+);
+
+--------------------------------
+
+### 6.2 Qdrant (Vektordatenbank)
+
+Die Qdrant Collection wird beim Start automatisch über Docker Compose initialisiert.
+
+- Vektorgröße: 768
+- Distanzmetrik: Cosine

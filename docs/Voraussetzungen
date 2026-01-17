@@ -1,0 +1,7 @@
+## Voraussetzungen
+
+- Docker & Docker Compose (lokal)
+- Zugang zu Zotero (Account & Library)
+- Zotero API Key
+- Zugriff auf n8n (self-hosted im Compose)
+- Ollama (lokal bzw. in Docker)

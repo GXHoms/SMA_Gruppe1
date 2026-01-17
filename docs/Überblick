@@ -1,0 +1,18 @@
+## 1. Überblick
+
+Muzamil El-Bashir (3003194) · Mohamad Yamen Al Salkini (2211216) · Georg Bitter (3000723) · Ghada Awad (2211780) · Dara Soun (2123000) · Leon Ehrenhard-Dickescheid (2122451)
+
+Dieses Projekt implementiert ein **lokal lauffähiges Retrieval-Augmented-Generation (RAG) System**.  
+PDF-Dokumente werden aus einer **Zotero-Library** ingestiert, in **Text-Chunks** zerlegt, mit **Embeddings** versehen und in **Qdrant** gespeichert. 
+Chunk-Metadaten werden zusätzlich in **PostgreSQL** persistiert, um Nachvollziehbarkeit und Auswertung zu ermöglichen.
+
+Ziel dieser Dokumentation ist es, den Aufbau, die Konfiguration und den Betrieb eines lokal lauffähigen RAG-Systems nachvollziehbar zu beschreiben. 
+Das System basiert auf dem n8n AI Starter Kit und ermöglicht es, PDF-Dokumente aus einer Zotero-Collection automatisiert zu importieren, zu extrahieren, zu chunken, zu embedden und in einer Vektordatenbank abzulegen, sodass Nutzerfragen per Retrieval-Augmented-Generation beantwortet werden können.
+Die Doku soll sicherstellen, dass eine dritte Person das System reproduzierbar:
+- lokal starten (Docker/n8n-Stack)
+- eine Zotero-Collection anbinden und mindestens 5 thematisch zusammenhängende PDFs ingestieren
+- die Speicherung von Embeddings (Qdrant) und Metadaten (PostgreSQL/Qdrant Payload) nachvollziehen
+- das Retrieval inklusive Filter (z. B. Tag/Jahr/Collection) testen
+- Antworten mit Quellenangaben (Dokumentname + Seitenbereich) erzeugen kann.
+
+Zusätzlich dokumentiert die Doku die zentralen Designentscheidungen (Chunking, Metadaten-Schema, Prompting) sowie typische Fehlerbilder und Troubleshooting, damit das System langfristig wartbar und erweiterbar bleibt.

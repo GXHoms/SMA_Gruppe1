@@ -1,0 +1,37 @@
+## 7. Zotero
+
+### 7.1 Setup
+---------
+- Zotero Account anlegen
+- Zotero App herunterladen oder im Browser ausführen
+- Zotero Connector Extension (z. B. für Firefox) installieren
+- Zotero API Key in den Settings erzeugen und sicher speichern
+- (Optional) Zotero Gruppe erstellen, damit mehrere Personen auf dieselbe Library zugreifen können
+
+### 7.2 Nutzung
+----------
+- PDFs werden über den Zotero Connector in die Library importiert
+- Zum Hinzufügen von PDFs wird typischerweise die App genutzt (Synchronisation mit Account beachten)
+- Für Einsicht reicht das Browser-Interface
+- In n8n:
+  - Group Library -> Nutzung der Group ID
+  - Personal Library -> Nutzung der User ID
+
+### 7.3 Zotero Datenabruf (API)
+---------------------------
+Item-Typen
+- Parent Item: Metadaten (Titel, Autoren, Jahr, ...)
+- Attachment: enthält die zugehörige PDF-Datei
+
+API Requests
+- Parent Items:
+  https://api.zotero.org/groups/<groupId>/items/top
+- Attachments (Children):
+  https://api.zotero.org/groups/<groupId>/items/children
+- PDF-Download:
+  https://api.zotero.org/groups/<groupId>/items/<key>/file
+
+Jeder Request benötigt:
+- Zotero API Key
+- Zotero API Version (Header)
+

@@ -1,0 +1,11 @@
+8. Ollama (Embeddings)
+
+Base URL: http://ollama:11434
+
+- Batch-Verarbeitung: standardmäßig 3 Chunks pro Batch
+- Bei Fehlern pro Batch: Retry
+- Bei dauerhaften Fehlern: Chunk als failed markieren statt Workflow komplett zu stoppen
+
+Voraussetzungen:
+- Embedding-Modell vorhanden (typisch: nomic-embed-text)
+- Chat/LLM-Modell vorhanden (für Query/Chat)

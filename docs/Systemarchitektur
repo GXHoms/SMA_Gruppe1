@@ -1,0 +1,21 @@
+## 2. Systemarchitektur
+
+### Komponenten
+**Datenquelle**
+- **Zotero**: Literaturverwaltung & PDF-Quelle
+
+**Orchestrierung**
+- **n8n**: Orchestrierung des gesamten Workflows
+
+**Dokumentenverarbeitung**
+- **Docling**: PDF-Chunking (sync/async)
+
+**Embeddings**
+- **Ollama**: Embedding-Generierung
+
+**Speicher**
+- **PostgreSQL**: Persistenz von Chunk-Metadaten
+- **Qdrant**: Vektordatenbank für semantische Suche
+
+**Betrieb**
+- **Docker Compose**: Lokales Setup & Service-Orchestrierung

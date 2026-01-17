@@ -1,0 +1,11 @@
+## Ziele und Abgrenzung
+
+
+### Zielzustand
+- Reproduzierbare, lokale Pipeline: **Dokument → Chunk → Embedding → Vektor-DB**
+- Nachvollziehbare Speicherung von Metadaten (Titel, Seitenbereiche, Tagging, Timestamps)
+- Grundlage für einen Query-/Chat-Workflow (Retrieval + Antwortgenerierung)
+
+### Nicht-Ziel / Abgrenzung
+- Kein vollständiges Frontend-Produkt (nur Workflows/Services)
+- Kein vollautomatisches „nur neue Dokumente“-Ingestion

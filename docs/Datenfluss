@@ -1,0 +1,18 @@
+## Datenfluss
+
+### 4.1 Ingestion (Dokumentaufnahme)
+1. Zotero Items listen (Parent Items)
+2. Attachments (PDFs) je Parent ermitteln
+3. PDF herunterladen
+4. Chunking via Docling
+5. Chunks formatieren
+6. Metadaten in PostgreSQL schreiben
+7. Embeddings via Ollama berechnen (Batching)
+8. Embeddings + Payload in Qdrant speichern
+
+### 4.2 Query/Chat (Retrieval & Antwort)
+1. User-Frage
+2. Embedding der Query
+3. Qdrant Vector Search
+4. Kontextaufbau
+5. Antwortgenerierung (LLM) mit klaren Regeln (keine Halluzinationen, nur Kontext)

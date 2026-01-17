@@ -11,7 +11,7 @@
         688,
         0
       ],
-      "id": "34ed49e1-7788-470b-a6e4-3e24328e1951",
+      "id": "4e73f087-3aa0-401a-8aca-9ae26aee57f7",
       "name": "Loop Over Items"
     },
     {
@@ -53,7 +53,7 @@
         272,
         0
       ],
-      "id": "8bf68fbc-fdc1-444f-b7bc-3173a836c1d8",
+      "id": "0002dc34-cdcc-4dc5-8563-e172f4c21bc9",
       "name": "SetConstants"
     },
     {
@@ -80,7 +80,7 @@
         480,
         0
       ],
-      "id": "f6ef21dd-eb4b-4fe8-a322-e402b7e1fb4d",
+      "id": "3548651c-3154-48e1-8378-4643949ceb13",
       "name": "GetZoteroItems"
     },
     {
@@ -114,7 +114,7 @@
         896,
         128
       ],
-      "id": "7a5cbc01-68ec-47a7-947b-b47b297cb784",
+      "id": "aa584c41-a9aa-4eaa-932f-9af873cd2c7f",
       "name": "IsPDF?"
     },
     {
@@ -141,7 +141,7 @@
         1104,
         208
       ],
-      "id": "28d750e8-8348-4d6b-b976-76499b17be24",
+      "id": "2391a9d5-c230-482b-9cdc-4e8505b04ae4",
       "name": "GetPDF"
     },
     {
@@ -175,7 +175,7 @@
         1312,
         208
       ],
-      "id": "534247d7-8e70-45c6-9896-c3af7f93d1a4",
+      "id": "c39d3d20-9479-493d-b118-6b221715aaca",
       "name": "IsPDF"
     },
     {
@@ -208,7 +208,7 @@
         1600,
         192
       ],
-      "id": "a79f051c-5e01-4c94-b3c4-659409a9a907",
+      "id": "16316134-ac6e-4703-ae84-cb174d12a1fa",
       "name": "DownloadPDF"
     },
     {
@@ -241,7 +241,7 @@
         1840,
         192
       ],
-      "id": "99b6c103-8092-4512-9219-bccc0079396c",
+      "id": "443fac51-4258-4410-8ce5-b756e9d8b29b",
       "name": "IsBig?"
     },
     {
@@ -279,7 +279,7 @@
         2256,
         224
       ],
-      "id": "8f3ae605-c4d5-460a-9e03-1e9f76572064",
+      "id": "54790398-deee-425e-a18d-a29586324b98",
       "name": "GetChunks"
     },
     {
@@ -307,7 +307,7 @@
         3136,
         1456
       ],
-      "id": "4017453e-a8f2-431c-8ca1-99e0406ecf30",
+      "id": "ba65ebd4-f2c3-472d-b544-32c85a9586da",
       "name": "Embeddings"
     },
     {
@@ -321,7 +321,7 @@
         2464,
         480
       ],
-      "id": "ea68184c-9f1f-4977-a499-9ed9080193e6",
+      "id": "030b28c9-602b-440a-a4bb-8771d38b76dc",
       "name": "Polling"
     },
     {
@@ -355,7 +355,7 @@
         2672,
         480
       ],
-      "id": "01537943-f9f1-45aa-85ce-661220bd9f3c",
+      "id": "42ae2efb-ff55-452e-af9b-a2913e99b83f",
       "name": "Is done"
     },
     {
@@ -369,7 +369,7 @@
         2992,
         448
       ],
-      "id": "e4e914ef-b569-482c-aa5a-6215f0d59d49",
+      "id": "cf23b768-0a8e-49fa-87a9-fb68d960717c",
       "name": "Get Result"
     },
     {
@@ -403,7 +403,7 @@
         3280,
         656
       ],
-      "id": "472162a4-9ae8-4e56-a085-bb612876ba02",
+      "id": "71c97161-aef6-4416-8086-fc52ea13f259",
       "name": "Is Error"
     },
     {
@@ -416,7 +416,7 @@
         3504,
         800
       ],
-      "id": "a71ab199-e3db-4641-9afb-8eef2942e883",
+      "id": "a2b1e03c-a58b-4dc9-8efa-7846b4c7564d",
       "name": "1m",
       "webhookId": "14bd6179-1cab-4754-97de-fa77f8c20a71"
     },
@@ -440,16 +440,16 @@
         1200,
         1280
       ],
-      "id": "a939947d-e57e-4a9e-85ea-bf3675835a5b",
+      "id": "e064a688-f838-4602-9715-79b34278997c",
       "name": "Embedding Pipeline"
     },
     {
       "parameters": {
         "workflowId": {
           "__rl": true,
-          "value": "QrRbDoPV4As6SSlt",
+          "value": "U_wT0N3XSm3awTfrZ9xGq",
           "mode": "list",
-          "cachedResultUrl": "/workflow/QrRbDoPV4As6SSlt",
+          "cachedResultUrl": "/workflow/U_wT0N3XSm3awTfrZ9xGq",
           "cachedResultName": "Ingestion"
         },
         "workflowInputs": {
@@ -492,7 +492,7 @@
         3248,
         272
       ],
-      "id": "36e3a80c-a8a3-4c76-adb5-90b80a7e7801",
+      "id": "694bd3a1-5cf5-43d8-ac82-4d77f9864266",
       "name": "Start Embedding"
     },
     {
@@ -503,20 +503,20 @@
         0,
         0
       ],
-      "id": "a60aa8c6-7952-4692-8545-944b5709f7f6",
+      "id": "b9bfdf32-5b9c-46ae-8652-5cc4cc86325e",
       "name": "Chunking Pipeline"
     },
     {
       "parameters": {
-        "jsCode": "const staticData = $getWorkflowStaticData('global');\n\n// set to 0 for first exec\nif (staticData.counter === undefined) {\n  staticData.counter = 0;\n}\n\nstaticData.counter += 1;\n\nreturn [{\n  json: {\n    ...$json,\n    counter: staticData.counter,\n  },\n}];"
+        "jsCode": "let counter = 1;\n\nif ($json.chunkid) {\n  const m = $json.chunkid.match(/^paper(\\d+)chunk\\d+$/);\n  if (m) counter = Number(m[1]) + 1;\n}\n\nreturn [\n  {\n    json: {\n      chunks: $('Embedding Pipeline').first().json.chunks,\n      counter: counter\n    }\n  }\n];\n"
       },
       "type": "n8n-nodes-base.code",
       "typeVersion": 2,
       "position": [
-        1568,
+        1696,
         1280
       ],
-      "id": "c04c62c5-ddc0-4c14-b609-fffe1875c6fd",
+      "id": "775c6ed5-c410-4888-95c1-e882be4fc5ef",
       "name": "Counter"
     },
     {
@@ -563,7 +563,7 @@
         2288,
         1280
       ],
-      "id": "6f16b504-1276-4736-8124-7f35e8c8f146",
+      "id": "033a00aa-1d82-4bf8-84ba-1f821c6da5c5",
       "name": "FormatChunks"
     },
     {
@@ -601,7 +601,7 @@
         2256,
         480
       ],
-      "id": "aee8eaba-dbeb-427a-b938-ad5d686df9ee",
+      "id": "aaee5801-a1af-4023-8598-e389c0ec9231",
       "name": "GetChunksAsync"
     },
     {
@@ -615,7 +615,7 @@
         1968,
         1280
       ],
-      "id": "16609b9e-398c-4a5c-9d21-3c44760f4ade",
+      "id": "63aa3f5d-27d5-4a82-91b2-6f141cc68f0e",
       "name": "Split Out"
     },
     {
@@ -731,11 +731,11 @@
         2656,
         1280
       ],
-      "id": "f5f68d0e-a9b9-4f8a-8e0b-8d852ecaf9d5",
+      "id": "c4ee5f2f-9078-435e-80be-c3e38f6e8860",
       "name": "Chunks into postgre",
       "credentials": {
         "postgres": {
-          "id": "98VPq0d6rqsBM90z",
+          "id": "3Zwe3F2brZIDHtKR",
           "name": "Postgres account"
         }
       }
@@ -751,7 +751,7 @@
         2928,
         1280
       ],
-      "id": "783c4307-0ccc-4ca8-aefe-3509b7042971",
+      "id": "aa2ad611-c334-40b1-bd46-a58afc398f30",
       "name": "Batches of 3"
     },
     {
@@ -769,7 +769,7 @@
         3472,
         1520
       ],
-      "id": "12c7b2f9-15a4-4ce8-8dc8-b13909dff837",
+      "id": "3431ec8d-4ea5-4bef-8bf4-dc9a557fd528",
       "name": "SaveToQdrant"
     },
     {
@@ -780,9 +780,58 @@
         3712,
         1616
       ],
-      "id": "9cae6bbf-d6d4-491f-8927-4d68e9296012",
+      "id": "00f2f5d1-8914-4edf-b2e2-981213d7b4d1",
       "name": "5s",
       "webhookId": "828f9975-a3bd-4902-acef-1c87497b708c"
+    },
+    {
+      "parameters": {
+        "operation": "select",
+        "schema": {
+          "__rl": true,
+          "mode": "list",
+          "value": "public"
+        },
+        "table": {
+          "__rl": true,
+          "value": "dokumente_log",
+          "mode": "list",
+          "cachedResultName": "dokumente_log"
+        },
+        "limit": 1,
+        "where": {
+          "values": [
+            {
+              "column": "chunkid",
+              "condition": "IS NOT NULL"
+            }
+          ]
+        },
+        "sort": {
+          "values": [
+            {
+              "column": "created_at",
+              "direction": "DESC"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.postgres",
+      "typeVersion": 2.6,
+      "position": [
+        1408,
+        1280
+      ],
+      "id": "b980aab5-fcb0-456f-98c3-3c9eb56abcee",
+      "name": "Get Last Item",
+      "alwaysOutputData": true,
+      "credentials": {
+        "postgres": {
+          "id": "3Zwe3F2brZIDHtKR",
+          "name": "Postgres account"
+        }
+      }
     }
   ],
   "pinData": {
@@ -1063,7 +1112,7 @@
       "main": [
         [
           {
-            "node": "Counter",
+            "node": "Get Last Item",
             "type": "main",
             "index": 0
           }
@@ -1180,17 +1229,29 @@
           }
         ]
       ]
+    },
+    "Get Last Item": {
+      "main": [
+        [
+          {
+            "node": "Counter",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
     }
   },
   "active": true,
   "settings": {
-    "executionOrder": "v1"
+    "executionOrder": "v1",
+    "availableInMCP": false
   },
-  "versionId": "30d81727-1175-4f74-9a27-d0dc94e0eddf",
+  "versionId": "e2342e0c-7e4e-4861-a93d-edb61a74585f",
   "meta": {
     "templateCredsSetupCompleted": true,
-    "instanceId": "2e5c459191bca6972a6ed06a2c5d41835b85727e5281032a4ad737c853e399fa"
+    "instanceId": "286322354631e27796f2f90446865b7c27e15dfdd48aea264630ad80b131b0ff"
   },
-  "id": "QrRbDoPV4As6SSlt",
+  "id": "U_wT0N3XSm3awTfrZ9xGq",
   "tags": []
 }

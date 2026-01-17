@@ -59,7 +59,18 @@ docker compose up -d
 docker compose ps  
  
 3. Logs ansehen (falls etwas nicht läuft, Optional): 
-docker compose logs -f  
+docker compose logs -f
+
+(Optional): Je nach Hardware wird das Projekt über eine Docker-Compose Profil gestartet:
+- CPU Standard
+docker compose --profile cpu up -d
+
+- NVIDIA GPU:
+docker compose --profile gpu-nvidia up -d
+
+- AMD GPU:
+docker compose --profile gpu-amd up -d
+
 
 
 ### 4. Zugriff auf n8n 

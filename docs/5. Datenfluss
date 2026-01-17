@@ -1,6 +1,6 @@
-## Datenfluss
+## 5. Datenfluss
 
-### 4.1 Ingestion (Dokumentaufnahme)
+### 5.1 Ingestion (Dokumentaufnahme)
 1. Zotero Items listen (Parent Items)
 2. Attachments (PDFs) je Parent ermitteln
 3. PDF herunterladen
@@ -10,7 +10,7 @@
 7. Embeddings via Ollama berechnen (Batching)
 8. Embeddings + Payload in Qdrant speichern
 
-### 4.2 Query/Chat (Retrieval & Antwort)
+### 5.2 Query/Chat (Retrieval & Antwort)
 1. User-Frage
 2. Embedding der Query
 3. Qdrant Vector Search
